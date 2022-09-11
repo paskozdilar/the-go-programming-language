@@ -14,6 +14,7 @@ package main
 //	- read tcp [...]: read: connection reset by peer
 //	- dial tcp [...]: i/o timeout
 //	- stream error: stream ID 1; INTERNAL_ERROR; received from peer
+//	- read tcp [...]: read: connection timed out
 // After many errors, the program started to hang as well. This is probably
 // what happens when the TCP connection stays open, but server does not send
 // any data.
