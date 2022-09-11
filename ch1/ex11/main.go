@@ -11,8 +11,8 @@ package main
 // in the file: `top1000websites.txt`
 // When website just doesn't respond, one of the following errors are printed:
 //	- net/http: TLS handshake timeout
-//	- read tcp {LOCALADDR:PORT}->{REMOTEADDR:PORT}: read: connection reset by peer
-//	- dial tcp {REMOTEADDR:PORT}: i/o timeout
+//	- read tcp [...]: read: connection reset by peer
+//	- dial tcp [...]: i/o timeout
 //	- stream error: stream ID 1; INTERNAL_ERROR; received from peer
 // After many errors, the program started to hang as well. This is probably
 // what happens when the TCP connection stays open, but server does not send
