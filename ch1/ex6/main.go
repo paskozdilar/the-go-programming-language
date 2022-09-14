@@ -28,7 +28,6 @@ const (
 	greenIndex = 2 // third color in palette
 	blueIndex  = 3 // fourth color in palette
 	whiteIndex = 4 // fifth color in palette
-
 )
 
 func main() {
